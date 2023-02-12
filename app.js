@@ -91,8 +91,8 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb://127.0.0.1:27017/nimantran_db"
-    // "mongodb+srv://manish:Mrawat123@cluster0.wndm6ab.mongodb.net/?retryWrites=true&w=majority"
+    // "mongodb://127.0.0.1:27017/nimantran_db"
+    "mongodb+srv://manish:Mrawat123@cluster0.wndm6ab.mongodb.net/?retryWrites=true&w=majority"
   )
   .then((result) => {
     console.log("connect!!!");
