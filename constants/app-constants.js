@@ -1,0 +1,21 @@
+exports.MSG={
+    emailNotFound:'A user with this username could not be found.',
+    wrongPassword:'Wrong password!',
+    usernameDoesNotExist:"Username doesn't exist",
+    password_changed_success:"Password has been changed successful",
+    invalidOldPassword:"Invalid old password",
+    otpSendMsg:"Otp has sent successful to your registered email id",
+    forgotPasswordSendMsg:"Reset link has sent successful to your registered email id",
+    notVerified:"Verifier code has not verified",
+    invalidOTP:"Invalid OTP",
+    otpAlreadyUsed:"OTP code is already used",
+   otpExpired: "OTP code has expired",
+   resetLinkExpired: "Reset link has been expired",
+   notAuthenticated:"Not authenticated.",
+   success:"success",
+   verifiedMsg:"Reset link has been authenticated",
+   resetTokenRequired:"Reset token is required",
+   somethingWentWrong:"Something went wrong",
+   couldNotFindAnyItems:"Could not find any items.",
+   invalidId:"Invalid Id"
+}
